@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurtured Homes</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="sgnup.js"></script>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with Logo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+   
+    <h1>NURTURED HOMES</h1> 
+    <class="logo"><img id="logo" src="images/logoq.PNG" alt="Logo"></a>
+    <p>"Children well nurtured lead to a bright future"</p>
+    </header>
+
+    <main>
+    <section>
+    <form id="snFm" onsubmit="profile(event)">
+    <fieldset form="snFm" id="snFd">  
+    <p>Sign-Up</p>
+
+    <div id="nmc">
+    <div id="fnmc">
+    <label for="ftn">First Name:<span id="ftne" class="error">*</span></label>
+    <input type="text" id="ftn" name="ftn"><br>
+    </div>
+
+    <div id="lnmc">
+    <label for="ltn">Last Name:<span id="ltne" class="error">*</span></label>
+    <input type="text" id="ltn" name="ltn"><br><br>
+    </div>
+    </div>
+
+    <label for="email">Email Address:<span id="emle" class="error">*</span></label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="pswd">Password:<span id="pswde" class="error">*</span></label>
+    <input type="pswd" id="pswd" name="pswd"><br><br>
+
+    <label for="ctctn">Contact Number:</label>
+    <input type="text" id="ctctn" name="ctctn"><br><br>
+
+    <div id="snmc">
+    <label>Gender:<span id="gendere" class="error">*</span></label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="prfnts" name="gender" value="Prefer not to say">
+    <label for="prfnts">Prefer not to say</label>
+    <br>
+
+
+    <label for="spprt">Why I support this campaign:<span id="spprte" class="error">*</span></label>
+    <textarea id="spprt" name="spprt"></textarea> <br><br>
+    </div>
+    <button type="submit">Register</button>
+    <h3>Join the cause, nurture your child and let them give their all!</h3>
+    </fieldset>
+    </form>
+    </section>
+    </main>
+</body>
+</html>

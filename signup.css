@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e1f3ff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+    margin: 150px;
+    display: inline-block;
+    object-fit: cover;
+}
+
+#logo {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    display: inline-block;
+}
+
+main {
+    max-width: 800px; 
+    margin: 20px auto;
+    padding: 40px; 
+    background-color: #fff;
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 600px; 
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 15px; 
+    margin-bottom: 20px; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+}
+
+input[type="radio"] {
+    margin-right: 10px; 
+}
+
+button[type="submit"] {
+    background-color: #0056b3;
+    color: white;
+    padding: 15px 30px; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #003366;
+}
+
+.error {
+    color: red;
+    font-size: 14px; 
+}
+
+#nmc {
+    display: flex;
+}
+
+#fnmc,
+#lnmc {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+#snmc {
+    margin-top: 30px; 
+}
+
+#errorContainer {
+    color: red;
+    margin-top: 20px; 
+}
+
+h3 {
+    margin-top: 30px;
+}

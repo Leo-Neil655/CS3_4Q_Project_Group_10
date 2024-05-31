@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - NURTURED HOMES</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header>
+        <h1>NURTURED HOMES</h1>
+        <class="logo"><img id="logo" src="images/logoq.PNG" alt="Logo"></a>
+        <p>"Children well nurtured lead to a bright future"</p>
+    </header>
+    <main>
+
+    <section>
+    <h2>Profile Information</h2>
+    <p>First Name: <span id="ftn"></span></p>
+    <p>Last Name: <span id="ltn"></span></p>
+    <p>Email Address: <span id="email"></span></p>
+    <p>Gender:<span id="gender"></span></p>
+    <p>Why I support this campaign: <span id="spprt"></span></p>
+    </section>
+    </main>
+
+    <script>
+        document.getElementById('ftn').textContent = localStorage.getItem('ftn');
+        document.getElementById('ltn').textContent = localStorage.getItem('ltn');
+        document.getElementById('email').textContent = localStorage.getItem('email');
+        document.getElementById('gender').textContent = localStorage.getItem('gender');
+        document.getElementById('spprt').textContent = localStorage.getItem('spprt');
+    </script>
+
+
+</body>
+</html>
